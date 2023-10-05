@@ -1,0 +1,151 @@
+.result-container {
+  text-align: center;
+  max-width: 400px;
+  border: 1px solid rgb(114, 63, 255);
+  padding: 20px;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 50px;
+  margin-bottom:50px;
+}
+
+.your-result {
+  color: white;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  position: relative;
+}
+
+
+.big-number {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.small-number {
+  font-size: 18px;
+  color: hsl(241, 28%, 64%);
+}
+
+.great {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  display: flex;
+    justify-content: center;
+    margin-top:10px;
+
+}
+
+.scored-higher {
+  color: white;
+  width:250px;
+  margin-top:20px;
+  margin-left:80px;
+  margin-bottom:20px;
+  
+}
+
+.summary-container {
+  max-width: 400px;
+  padding: 20px;
+  margin-top:0;
+
+}
+
+.score-container {
+  max-width: 100%;
+  height: 48px;
+  display: flex;
+    align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.score-container img {
+  margin-right: 10px;
+}
+
+.score-container {
+  margin: 10px;
+  margin-bottom:10px;
+}
+
+.summary-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.score-reaction {
+  background-color: #FFF6F5;
+  color: #fa5b59;
+  align-items: center;
+}
+
+.score-memory {
+  background-color: #FFFBF2;
+  color: #faba2f;
+  align-items: center;
+}
+
+
+.score-verbal {
+  background-color: #F2FAFA;
+  color: #2dd0aa;
+  align-items: center;
+}
+
+.score-visual {
+  background-color: #F3F3FD;
+  color: #5255fb;
+  align-items: center;
+}
+
+.black {
+  color:black;
+}
+
+.score-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.score-number {
+  color: black;
+  font-weight: bold;
+        display: inline;
+}
+
+.max-score {
+  opacity: 0.5;
+  color:black;
+      display: inline;
+}
+
+
+.continue-button {
+  width: 100%;
+  height: 60px;
+  background-color: #303B59;
+  color: white;
+  border-radius: 60px;
+  border: solid black;
+  font-size: 18px;
+  color: hsl(221, 100%, 96%);
+  box-shadow: 3px 3px 40px #00000052;
+}
